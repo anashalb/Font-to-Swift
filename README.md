@@ -33,7 +33,7 @@ sudo npm install -g font-to-swift
 ```
 fontToSwift [-e] [directory of font files | font file name | downloadable link to font] [output path]
 ```
--e Generates an enumeration of all the characters in the font file. This is specifically useful when embedding an icons font file into your project.
+**-e** Generates an enumeration of all the characters in the font file. This is specifically useful when embedding an icons font file into your project.
 
 Example:
 ```
@@ -41,8 +41,8 @@ fontToSwift open-sans.ttf .
 ```
 
 Generates the following files:
-OpenSans.swift
-fonts.plist
+*OpenSans.swift
+*fonts.plist
 
 where fonts.plist contains
 ```
