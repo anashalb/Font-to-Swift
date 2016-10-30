@@ -1,6 +1,9 @@
 # Font-to-Swift
 
-A Node.js library to generate Swift code and a plist from font files ready to be plugged into your existing Xcode project.
+A Node.js module to generate files necessary to get you up and running with custom fonts in your existing Swift Xcode project.
+
+The file 
+
 
 # Installation
 
@@ -51,3 +54,8 @@ where fonts.plist contains
 	<string>open-sans.ttf</string>
 <array>
 ```
+
+# License and Copyright
+Copyright 2016 Anas Halbawi. All rights reserved.
+
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
