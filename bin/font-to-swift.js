@@ -6,14 +6,13 @@
 	var cssToSwift = require('../lib/cssToSwift');
 	var fs = require('fs');
 
-	function getPath(inPath, relativePath) {
+	function getPath(inPath) {
 
 		if (inPath.startsWith("http")) return inPath;
-		if (!inPath) inPath = 'output.swift';
 
 		if (inPath.charAt(0) != '/') {
 
-			var directory = relativePath ? path.dirname(relativePath) : __dirname;
+			var directory = ".";
 			return path.normalize(path.join(directory, inPath));
 		} else {
 			return inPath;
@@ -45,7 +44,7 @@
 				}
 			} else {
 
-				outPath = __dirname;
+				outPath = ".";
 			}
 		}
 
