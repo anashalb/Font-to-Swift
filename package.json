@@ -18,7 +18,7 @@
   },
   "preferGlobal": "true",
   "author": "Anas Halbawi",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "minimist": "^1.2.0",
     "opentype.js": "^0.6.6",
