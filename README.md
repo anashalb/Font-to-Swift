@@ -1,8 +1,10 @@
 # Font-to-Swift
 
-A Node.js module to generate files necessary to get you up and running with custom fonts in your existing Swift Xcode project.
+A Node.js module to generate files necessary to get you up and running with custom fonts in your existing Swift Xcode project. You have the option of generating an enumeration of the character mapping; this is particulary useful when it comes to using icon font files (eg. FontAwesome), where each unicode character represents an icon. Do you want to use a Google font (or any other web-hosted font file for that matter)? Pass the link to Font-To-Swift and it will automatically download the file, unzip it if necessary and generate the files.
 
-The file 
+*TTF and OTF font files are currently supported.*
+
+**Note:** This module is still under development. 
 
 
 # Installation
@@ -11,7 +13,7 @@ The file
 
 Make sure you have Node.js installed on your Mac.
 
-To check if you already do, fire up your terminal and run
+To check if you already do, fire up your terminal and run:
 ```
 node -v
 ```
@@ -19,24 +21,28 @@ node -v
 You should get something like "v4.5.0"
 
 
-# 2- Install Font-to-Swift package (globally!)
+## 2- Install Font-to-Swift module (globally!)
 
-To make use of this package, install it globally using npm
+To make use of this module, install it globally using npm:
 
 ```
 npm install -g font-to-swift
 ```
 
-If you get an EACCES error, you should [fix your permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions). You could also try using sudo, but this should be avoided:
+If you get an EACCES error, you should [fix your permissions](https://docs.npmjs.com/getting-started/fixing-npm-permissions). You could also try using sudo, but this is discourage:
 ```
 sudo npm install -g font-to-swift
 ```
 
 # Usage
+To use this module:
 ```
-fontToSwift [-e] [directory of font files | font file name | downloadable link to font] [output path]
+fontToSwift [options] directory of font files | font file name | downloadable link to font [output directory]
 ```
-**-e** Generates an enumeration of all the characters in the font file. This is specifically useful when embedding an icons font file into your project.
+
+### Options
+**-e** Generates an enumeration of all the characters in the font file.
+
 
 Example:
 ```
