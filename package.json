@@ -1,7 +1,11 @@
 {
   "name": "font-to-swift",
   "version": "0.1.0",
-  "keywords": ["swift", "font", "ios"],
+  "keywords": [
+    "swift",
+    "font",
+    "ios"
+  ],
   "description": "Generate embeddable Swift code from a font file.",
   "main": "bin/font-to-swift.js",
   "bin": {
@@ -16,6 +20,7 @@
   "author": "Anas Halbawi",
   "license": "ISC",
   "dependencies": {
+    "minimist": "^1.2.0",
     "opentype.js": "^0.6.6",
     "promise": "^7.1.1",
     "request": "^2.76.0",
