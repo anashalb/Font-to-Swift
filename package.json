@@ -1,13 +1,14 @@
 {
   "name": "font-to-swift",
-  "version": "1.0.3",
+  "version": "0.1.0",
+  "keywords": ["swift", "font", "ios"],
   "description": "Generate embeddable Swift code from a font file.",
-  "main": "index.js",
+  "main": "bin/font-to-swift.js",
   "bin": {
-    "fontToSwift": "bin/fontToSwift.js"
+    "fontToSwift": "bin/font-to-swift.js"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "node bin/font-to-swift.js",
     "testMulti": "npm start './test/fonts/'",
     "test": "npm start './test/fonts/GothamHTF-Book.otf'"
   },

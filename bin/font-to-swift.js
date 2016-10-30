@@ -3,7 +3,7 @@
 (function() {
 
 	var path = require('path');
-	var cssToSwift = require('./lib/cssToSwift');
+	var cssToSwift = require('../lib/cssToSwift');
 	var fs = require('fs');
 
 	function getPath(inPath, relativePath) {
