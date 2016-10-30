@@ -9,7 +9,7 @@ A Node.js module to generate files necessary to get you up and running with cust
 
 # Installation
 
-##@ 1- Install Node.js
+### 1- Install Node.js
 
 Make sure you have Node.js installed on your Mac.
 
@@ -45,8 +45,9 @@ fontToSwift [options] directory of font files | font file name | downloadable li
 
 
 ###Example:
+To generate a Swift and plist files for the font open-sans.ttf
 ```
-fontToSwift open-sans.ttf .
+fontToSwift open-sans.ttf /output/path
 ```
 
 Generates the following files:
@@ -60,6 +61,21 @@ where fonts.plist contains
 	<string>open-sans.ttf</string>
 <array>
 ```
+
+Similary, you can use 
+
+```
+fontToSwift /path/to/font/files /output/path
+```
+
+or
+
+```
+fontToSwift https://fonts.google.com/download?family=Open+Sans /output/path
+```
+
+All you need to do now is copy the generated Swift files and font files to your Xcode project. Make sure you include them in the required target(s).
+Open fonts.plist and copy the node "UIAppFonts" into your plist file.
 
 # To Do
 - [ ] Embed files directly into an Xcode project
