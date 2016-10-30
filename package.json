@@ -1,0 +1,20 @@
+{
+  "name": "csstoswift",
+  "version": "1.0.0",
+  "description": "Convert a css icon font file to a Swift enum.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "testMulti": "npm start './test/fonts/'",
+    "test": "npm start './test/fonts/GothamHTF-Book.otf'"
+  },
+  "author": "Anas Halbawi",
+  "license": "ISC",
+  "dependencies": {
+    "opentype.js": "^0.6.6",
+    "promise": "^7.1.1",
+    "request": "^2.76.0",
+    "rework": "^1.0.1",
+    "unzip2": "^0.2.5"
+  }
+}
