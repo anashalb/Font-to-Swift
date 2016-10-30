@@ -77,6 +77,14 @@ fontToSwift https://fonts.google.com/download?family=Open+Sans /output/path
 All you need to do now is copy the generated Swift files and font files to your Xcode project. Make sure you include them in the required target(s).
 Open fonts.plist and copy the node "UIAppFonts" into your plist file.
 
+If you decided to use the [**e**](#options) option, you can get the unicode character for an icon using:
+```
+var label = UILabel();
+label.font = FontAwesome.font(ofSize: 20);
+label.text = FontAwesome.CharMap.Thumbs_up_alt.rawValue;
+```
+
+
 # To Do
 - [ ] Embed files directly into an Xcode project
 
