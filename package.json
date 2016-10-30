@@ -3,11 +3,15 @@
   "version": "1.0.2",
   "description": "Generate embeddable Swift code from a font file.",
   "main": "index.js",
+  "bin": {
+    "fontToSwift": "bin/fontToSwift.js"
+  },
   "scripts": {
     "start": "node index.js",
     "testMulti": "npm start './test/fonts/'",
     "test": "npm start './test/fonts/GothamHTF-Book.otf'"
   },
+  "preferGlobal": "true",
   "author": "Anas Halbawi",
   "license": "ISC",
   "dependencies": {
