@@ -62,7 +62,7 @@ where fonts.plist contains
 ```
 
 # To Do
-- [ ] Embed files directly into your Xcode project
+- [ ] Embed files directly into an Xcode project
 
 # License and Copyright
 Copyright 2016 Anas Halbawi. All rights reserved.
