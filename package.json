@@ -1,7 +1,7 @@
 {
-  "name": "csstoswift",
+  "name": "fonttoswift",
   "version": "1.0.0",
-  "description": "Convert a css icon font file to a Swift enum.",
+  "description": "Generate embeddable Swift code from a font file.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
