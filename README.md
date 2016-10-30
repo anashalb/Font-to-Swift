@@ -4,7 +4,7 @@ A Node.js module to generate files necessary to get you up and running with cust
 
 *.ttf and .otf are currently supported.*
 
-**Note:** This module is still under development. 
+**Note:** This module is still under development. All suggestions are welcome :) 
 
 
 # Installation
@@ -83,6 +83,7 @@ var label = UILabel();
 label.font = FontAwesome.font(ofSize: 20);
 label.text = FontAwesome.CharMap.Thumbs_up_alt.rawValue;
 ```
+The label will render the FontAwesome icon 👍
 
 
 # To Do
