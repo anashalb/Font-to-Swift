@@ -3,8 +3,9 @@
 (function() {
 
 	var path = require('path');
-	var cssToSwift = require('../lib/cssToSwift');
+	var cssToSwift = require('../lib/fontToSwift');
 	var fs = require('fs');
+	var args = require('minimist')(process.argv.slice(2));
 
 	function getPath(inPath) {
 
@@ -19,13 +20,14 @@
 		}
 	}
 
-	if (!process.argv[2]) {
+
+	if (!args['_'][0]) {
 
 		console.log("Error: Please specify an input file name or a directory.");
 	} else {
 
-		var inPath = getPath(process.argv[2]);
-		var outPath = process.argv[3];
+		var inPath = getPath(args['_'][0]);
+		var outPath = args['_'][1]
 
 		if (outPath) {
 
