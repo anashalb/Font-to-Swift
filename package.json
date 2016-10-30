@@ -1,6 +1,6 @@
 {
-  "name": "fonttoswift",
-  "version": "1.0.0",
+  "name": "font-to-swift",
+  "version": "1.0.1",
   "description": "Generate embeddable Swift code from a font file.",
   "main": "index.js",
   "scripts": {
