@@ -88,6 +88,7 @@ The label will render the FontAwesome icon 👍
 
 # To Do
 - [ ] Embed files directly into an Xcode project
+- [ ] Option to recursively search through directories for font files
 
 # License and Copyright
 Copyright 2016 Anas Halbawi. All rights reserved.
