@@ -1,3 +1,4 @@
 node_modules/
 bin/Readme-draft
 xcode.rb
+npm-debug.log
