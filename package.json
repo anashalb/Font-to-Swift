@@ -6,7 +6,9 @@
     "generate",
     "swift",
     "font",
-    "ios"
+    "ios",
+    "add",
+    "custom"
   ],
   "repository": {
     "type": "git",
