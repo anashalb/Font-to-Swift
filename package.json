@@ -2,10 +2,16 @@
   "name": "font-to-swift",
   "version": "0.1.6",
   "keywords": [
+    "convert",
+    "generate",
     "swift",
     "font",
     "ios"
   ],
+  "repository": { 
+    "type" : "git",
+    "url" : "https://github.com/anashalb/Font-to-Swift"
+  },
   "description": "Generate embeddable Swift code from a font file.",
   "main": "bin/font-to-swift.js",
   "bin": {
